@@ -1,0 +1,17 @@
+{
+  "name": "topcon-mirage",
+  "version": "1.0.0",
+  "description": "* Auto-Waits\r * Network Control: Intercepting a network request enables to send an unauthorized response and capture how the web page responds\r * Codgen: record user actions",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.25.1"
+  }
+}
