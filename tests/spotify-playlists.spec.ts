@@ -11,7 +11,7 @@ test.beforeEach(async ({ page }) => {
   
   await main.goToMainPage();
   await main.acceptCookies();
-  await login.login('creitor96@gmail.com', 'K3aiX_tGvNY7qCQ');
+  await login.login('user', 'password');
   
   await page.waitForNavigation();
   await expect(page).toHaveURL('https://open.spotify.com/');
